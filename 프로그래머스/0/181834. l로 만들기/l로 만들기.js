@@ -1,0 +1,1 @@
+const solution = (str) => [...str].map((c) => (c < 'l' ? 'l' : c)).join('');
